@@ -35,6 +35,7 @@ namespace laba1_Selivanov_ISP233
             double iDouble = 4.5;
             float iFloat = 3.5F;
             decimal iDecimal = 2.5m;
+            Console.WriteLine("ajhaha");
 
             var name = "Dfs";
             char symbol = 'A';
