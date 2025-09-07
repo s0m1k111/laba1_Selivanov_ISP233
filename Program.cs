@@ -74,6 +74,7 @@ namespace laba1_Selivanov_ISP233
             /*Console.Write("\"Hello There\"");*/
 
             //Задание 4
+            /*
             //comp1
             Console.Write("стоимость монитора: ");
             int monic1 = Convert.ToInt32(Console.ReadLine());
@@ -106,6 +107,56 @@ namespace laba1_Selivanov_ISP233
 
             int res = monic1+ monic2+ monic3+ block1+ block2+ block3+ ckalava1+ ckalava2+ ckalava3+ mish1+ mish2+ mish3;
             Console.Write($"Итог: {res}");
+            */
+
+            //Задание 5
+            /*
+            Console.Write("Введите число а: ");
+            int a = Convert.ToInt32(Console.ReadLine());
+            Console.Write("Введите число b: ");
+            int b = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine(3 * Math.Pow(a + b, 3) + 275 * Math.Pow(b, 2) - 127 * a - 41);
+            */
+
+
+            //Задание 6
+            /*
+            Console.Write("Вашe имя: ");
+            string? name = Console.ReadLine();
+
+            Console.Write("Вашe возраст: ");
+            int age = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine($"Привет, {name}!");
+            Console.WriteLine($"Сейчас тебе {age} лет.");
+            Console.WriteLine($"В следующем году тебе будет {age+1}.");
+            */
+
+
+            //Задание 7
+            /*
+            Console.Write("Вашe имя: ");
+            string? name = Console.ReadLine();
+
+            Console.Write("Вашe возраст: ");
+            int age = Convert.ToInt32(Console.ReadLine());
+
+            Console.Write("Ваш город: ");
+            string? city = Console.ReadLine();
+            Console.WriteLine($"Привет, {name}! Тебе {age} лет и ты живёшь в городе {city}.");
+            */
+
+
+            //Задание 8
+            /*
+            Console.WriteLine("Введите темп. в градусах Цельсия: ");
+            double gradCels = Convert.ToDouble(Console.ReadLine());
+
+            double faren = (gradCels * 9 / 5) + 35;
+            Console.WriteLine($"Температура в градусах Фаренгейта: {faren}");
+            */
+
         }
     }
 }
