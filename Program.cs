@@ -150,10 +150,10 @@ namespace laba1_Selivanov_ISP233
 
             //Задание 8
             /*
-            Console.WriteLine("Введите темп. в градусах Цельсия: ");
+            Console.Write("Введите темп. в градусах Цельсия: ");
             double gradCels = Convert.ToDouble(Console.ReadLine());
 
-            double faren = (gradCels * 9 / 5) + 35;
+            double faren = (gradCels * 9 / 5) + 32;
             Console.WriteLine($"Температура в градусах Фаренгейта: {faren}");
             */
 
